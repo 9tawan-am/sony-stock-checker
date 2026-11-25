@@ -7,7 +7,7 @@ from datetime import datetime
 
 # ================= ตั้งค่าการใช้งาน =================
 WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "ใส่_DISCORD_WEBHOOK_URL_ของคุณที่นี่")
-COLLECTION_URL = "https://store.sony.co.th/collections/console/products.json?limit=250"
+COLLECTION_URL = "https://store.sony.co.th/collections/all/products.json?limit=5"
 STATE_FILE = "stock_state.json"
 CHECK_INTERVAL = 60  # ความถี่ในการเช็ก (วินาที) กรณีรันแบบเปิดทิ้งไว้ 24 ชม.
 
